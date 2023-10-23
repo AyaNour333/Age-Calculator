@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="box">
+        <div class="input">
+            <div class="row-input box-1">
+                <span class="boxhead">DAY</span>
+                <input type="number" class="d" placeholder="DD">
+                <div class="first">This field is required</div>
+                <div class="second">Must be a valid day</div>
+            </div>
+            <div class="row-input box-2">
+                <span class="boxhead">MONTH</span>
+                <input type="number" class="m" placeholder="MM">
+                <div class="first">This field is required</div>
+                <div class="second">Must be a valid month</div>
+            </div>
+            <div class="row-input box-3">
+                <span class="boxhead">YEAR</span>
+                <input type="number" class="y" placeholder="YYYY">
+                <div class="first">This field is required</div>
+                <div class="second">Must be in the past</div>
+            </div>
+        </div>
+        <div class="image">
+            <button type="submit"><img src="./assets/images/icon-arrow.svg" alt=""></button>
+        </div>
+        <div class="result">
+            <div class="res">
+                <span class="years">--</span>
+                <h2>years</h2>
+            </div>
+            <div class="res">
+                <span class="months">--</span>
+                <h2>months</h2>
+            </div>
+            <div class="res">
+                <span class="days">--</span>
+                <h2>days</h2>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
